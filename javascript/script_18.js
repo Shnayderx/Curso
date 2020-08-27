@@ -1,0 +1,1 @@
+alert("Permisos para el uso de adds en tu página");

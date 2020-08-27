@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tablas</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<table border="1" width="" cellspacing="4" cellpadding="5"> <!--cellspacing="4" Este es el espacio entre cada una 
+		de las celdas / cellpadding="" Define el margen interno que maneja cada una de las celdas de la tabla -->
+		<caption>Tabla de posiciones</caption> <!--Esto es para asignarle titulo a las tablas-->
+<thead> <!--Este elemento de cabezera es alternativo, es mas util para la semantica de google y su buscador-->
+		<tr>
+			<th>Equipos</th> <!--Aqui usamos th este th es para que sea negrilla y centreado-->
+			<th>puntos</th>
+		</tr>
+</thead>
+<tbody> <!--Este elemento es netamente alternativo para la semantica de html, cuerpo de la página-->
+		<tr>
+			<td>Rojo</td> <!--el td es para simple lista con letras normales a la izquierda-->
+			<td>16</td>
+		</tr>
+		<tr>
+			<td>Azul</td>
+			<td>20</td>
+		</tr>
+		<tr>
+			<td>negro</td>
+			<td rowspan="2">29</td> <!--rowspan="2" es para conbinar tablas filas, el campo siguiente debe estar vacio o disponible-->
+		</tr>
+		<tr>
+			<td>Gris</td>
+			
+		</tr>
+		<tr>
+			<td>morado</td>
+			<td>&nbsp;</td> <!--El &nbsp; sirve para dejar el espacio en blanco, aunque no hay nada ahi se recerba ese espacio -->
+		</tr>
+</tbody>
+<tfoot> <!--Este elemento es netamente alternativo para la semantica html, pie de página-->
+		<tr>
+			<td colspan="2">Negro</td> <!--Esto es para combinar columnas-->
+
+		</tr>
+</tfoot>
+	</table>
+
+</body>
+</html>
